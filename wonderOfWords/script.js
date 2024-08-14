@@ -1,12 +1,9 @@
 import { Application, Assets } from "../node_modules/pixi.js/dist/pixi.mjs";
 import { addBackground } from "./addBackground.js";
-import {
-  addCircle,
-  addCircles,
-  addsuffle,
-  addRect,
-  addButton,
-} from "./addMaterial.js";
+import { addButton } from "./addButton.js";
+import { addRect } from "./addRect.js";
+import { addsuffle } from "./addSuffle.js";
+import { addCircle, addCircles } from "./addCircles.js";
 
 export const app = new Application();
 const rects = [];
